@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#vanillaworld:is_dense/forge_overworld",
+    {
+      "id": "#vanillaworld:is_dense/forge_nether",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:is_dense/forge_end",
+      "required": false
+    }
+  ]
+}

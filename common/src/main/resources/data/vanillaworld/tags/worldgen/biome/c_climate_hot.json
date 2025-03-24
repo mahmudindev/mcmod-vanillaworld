@@ -1,0 +1,29 @@
+{
+  "values": [
+    {
+      "id": "#vanillaworld:c_jungle",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:c_savanna",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:c_desert",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:c_badlands",
+      "required": false
+    },
+    "vanillaworld:minecraft_stony_peaks",
+    {
+      "id": "#vanillaworld:c_mushroom",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:c_in_nether",
+      "required": false
+    }
+  ]
+}

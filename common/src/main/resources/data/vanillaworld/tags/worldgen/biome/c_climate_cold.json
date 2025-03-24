@@ -1,0 +1,15 @@
+{
+  "values": [
+    "vanillaworld:minecraft_snowy_plains",
+    "vanillaworld:minecraft_grove",
+    "vanillaworld:minecraft_jagged_peaks",
+    "vanillaworld:minecraft_taiga",
+    "vanillaworld:minecraft_snowy_taiga",
+    "vanillaworld:minecraft_old_growth_spruce_taiga",
+    "vanillaworld:minecraft_old_growth_pine_taiga",
+    {
+      "id": "#vanillaworld:c_icy",
+      "required": false
+    }
+  ]
+}

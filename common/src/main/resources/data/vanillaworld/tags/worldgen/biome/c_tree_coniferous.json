@@ -1,0 +1,9 @@
+{
+  "values": [
+    "vanillaworld:minecraft_grove",
+    {
+      "id": "#vanillaworld:c_taiga",
+      "required": false
+    }
+  ]
+}

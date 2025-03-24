@@ -1,0 +1,8 @@
+{
+  "feature": "vanillaworld:minecraft_void_start_platform",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

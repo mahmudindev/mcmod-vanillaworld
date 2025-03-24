@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#vanillaworld:c_mesa",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:minecraft_is_badlands",
+      "required": false
+    }
+  ]
+}

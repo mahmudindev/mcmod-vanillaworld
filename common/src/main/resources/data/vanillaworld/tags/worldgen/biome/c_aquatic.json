@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#vanillaworld:c_ocean",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:c_river",
+      "required": false
+    }
+  ]
+}

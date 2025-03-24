@@ -1,0 +1,123 @@
+{
+  "carvers": {
+    "air": "vanillaworld:minecraft_nether_cave"
+  },
+  "downfall": 0.0,
+  "effects": {
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "fog_color": 1787717,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.nether.soul_sand_valley"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.00625
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [
+      "vanillaworld:minecraft_basalt_pillar"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "vanillaworld:minecraft_spring_open",
+      "vanillaworld:minecraft_patch_fire",
+      "vanillaworld:minecraft_patch_soul_fire",
+      "vanillaworld:minecraft_glowstone_extra",
+      "vanillaworld:minecraft_glowstone",
+      "vanillaworld:minecraft_patch_crimson_roots",
+      "vanillaworld:minecraft_ore_magma",
+      "vanillaworld:minecraft_spring_closed",
+      "vanillaworld:minecraft_ore_soul_sand",
+      "vanillaworld:minecraft_ore_gravel_nether",
+      "vanillaworld:minecraft_ore_blackstone",
+      "vanillaworld:minecraft_ore_gold_nether",
+      "vanillaworld:minecraft_ore_quartz_nether",
+      "vanillaworld:minecraft_ore_ancient_debris_large",
+      "vanillaworld:minecraft_ore_debris_small"
+    ],
+    [],
+    [
+      "vanillaworld:minecraft_spring_lava"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:ghast": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:skeleton": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:strider": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 60
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 5,
+        "minCount": 5,
+        "weight": 20
+      },
+      {
+        "type": "minecraft:ghast",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 50
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2.0
+}

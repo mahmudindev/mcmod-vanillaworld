@@ -1,0 +1,11 @@
+{
+  "type": "vanillaworld:the_nether",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "vanillaworld:minecraft_nether_default",
+    "biome_source": {
+      "type": "vanillaworld:minecraft_multi_noise",
+      "preset": "minecraft:nether"
+    }
+  }
+}

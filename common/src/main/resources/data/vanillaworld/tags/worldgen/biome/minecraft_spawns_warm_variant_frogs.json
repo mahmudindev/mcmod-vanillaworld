@@ -1,0 +1,11 @@
+{
+  "values": [
+    "vanillaworld:minecraft_desert",
+    "vanillaworld:minecraft_warm_ocean",
+    "#vanillaworld:minecraft_is_jungle",
+    "#vanillaworld:minecraft_is_savanna",
+    "#vanillaworld:minecraft_is_nether",
+    "#vanillaworld:minecraft_is_badlands",
+    "vanillaworld:minecraft_mangrove_swamp"
+  ]
+}

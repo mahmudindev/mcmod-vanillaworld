@@ -1,0 +1,21 @@
+{
+  "values": [
+    {
+      "id": "#vanillaworld:c_savanna",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:c_desert",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:c_dead",
+      "required": false
+    },
+    "vanillaworld:minecraft_lush_caves",
+    {
+      "id": "#vanillaworld:c_wasteland",
+      "required": false
+    }
+  ]
+}

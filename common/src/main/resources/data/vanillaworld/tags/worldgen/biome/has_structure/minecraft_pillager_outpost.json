@@ -1,0 +1,11 @@
+{
+  "values": [
+    "vanillaworld:minecraft_desert",
+    "vanillaworld:minecraft_plains",
+    "vanillaworld:minecraft_savanna",
+    "vanillaworld:minecraft_snowy_plains",
+    "vanillaworld:minecraft_taiga",
+    "#vanillaworld:minecraft_is_mountain",
+    "vanillaworld:minecraft_grove"
+  ]
+}

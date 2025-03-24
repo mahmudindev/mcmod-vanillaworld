@@ -1,0 +1,17 @@
+{
+  "values": [
+    "vanillaworld:minecraft_snowy_plains",
+    "vanillaworld:minecraft_ice_spikes",
+    "vanillaworld:minecraft_frozen_peaks",
+    "vanillaworld:minecraft_jagged_peaks",
+    "vanillaworld:minecraft_snowy_slopes",
+    "vanillaworld:minecraft_frozen_ocean",
+    "vanillaworld:minecraft_deep_frozen_ocean",
+    "vanillaworld:minecraft_grove",
+    "vanillaworld:minecraft_deep_dark",
+    "vanillaworld:minecraft_frozen_river",
+    "vanillaworld:minecraft_snowy_taiga",
+    "vanillaworld:minecraft_snowy_beach",
+    "#vanillaworld:minecraft_is_end"
+  ]
+}

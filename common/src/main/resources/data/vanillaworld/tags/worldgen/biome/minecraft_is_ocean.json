@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#vanillaworld:minecraft_is_deep_ocean",
+    "vanillaworld:minecraft_frozen_ocean",
+    "vanillaworld:minecraft_ocean",
+    "vanillaworld:minecraft_cold_ocean",
+    "vanillaworld:minecraft_lukewarm_ocean",
+    "vanillaworld:minecraft_warm_ocean"
+  ]
+}

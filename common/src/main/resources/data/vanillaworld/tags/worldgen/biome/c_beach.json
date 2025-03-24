@@ -1,0 +1,9 @@
+{
+  "values": [
+    {
+      "id": "#vanillaworld:minecraft_is_beach",
+      "required": false
+    },
+    "vanillaworld:minecraft_stony_shore"
+  ]
+}

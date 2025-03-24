@@ -1,0 +1,6 @@
+{
+  "overworld": "vanillaworld:overworld",
+  "the_nether": "vanillaworld:the_nether",
+  "the_end": "vanillaworld:the_end",
+  "disable_end_respawn": false
+}

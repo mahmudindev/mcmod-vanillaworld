@@ -1,0 +1,26 @@
+{
+  "values": [
+    "#vanillaworld:minecraft_is_ocean",
+    "#vanillaworld:minecraft_is_river",
+    "#vanillaworld:minecraft_is_beach",
+    "#vanillaworld:minecraft_is_mountain",
+    "#vanillaworld:minecraft_is_hill",
+    "#vanillaworld:minecraft_is_taiga",
+    "#vanillaworld:minecraft_is_jungle",
+    "#vanillaworld:minecraft_is_forest",
+    "vanillaworld:minecraft_stony_shore",
+    "vanillaworld:minecraft_mushroom_fields",
+    "vanillaworld:minecraft_ice_spikes",
+    "vanillaworld:minecraft_windswept_savanna",
+    "vanillaworld:minecraft_desert",
+    "vanillaworld:minecraft_savanna",
+    "vanillaworld:minecraft_snowy_plains",
+    "vanillaworld:minecraft_plains",
+    "vanillaworld:minecraft_sunflower_plains",
+    "vanillaworld:minecraft_swamp",
+    "vanillaworld:minecraft_mangrove_swamp",
+    "vanillaworld:minecraft_savanna_plateau",
+    "vanillaworld:minecraft_dripstone_caves",
+    "vanillaworld:minecraft_lush_caves"
+  ]
+}

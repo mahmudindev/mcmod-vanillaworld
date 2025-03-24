@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillaworld",
+  "version": "${version}",
+  "name": "Vanilla World",
+  "description": "Add vanilla dimensions while keeping the original dimensions.",
+  "authors": [
+    "mahmudindev"
+  ],
+  "contact": {
+    "homepage": "https://github.com/mahmudindev",
+    "sources": "https://github.com/mahmudindev/mcmod-vanillaworld"
+  },
+  "license": "ARR",
+  "icon": "assets/vanillaworld/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.mahmudindev.mcmod.vanillaworld.fabric.VanillaWorldFabric"
+    ],
+    "client": [
+      "com.github.mahmudindev.mcmod.vanillaworld.fabric.client.VanillaWorldFabricClient"
+    ]
+  },
+  "mixins": [
+    "vanillaworld.mixins.json",
+    "vanillaworld_platform.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "worldportal": ">=0.0.3",
+    "dimensionfixer": ">=0.0.3",
+    "dimensionlink": ">=0.0.2"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "vanillaworld:the_end",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "vanillaworld:minecraft_end_default",
+    "biome_source": {
+      "type": "vanillaworld:minecraft_the_end",
+      "override_biomes": true
+    }
+  }
+}

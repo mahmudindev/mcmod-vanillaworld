@@ -1,0 +1,17 @@
+{
+  "values": [
+    {
+      "id": "#vanillaworld:c_aquatic",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:c_swamp",
+      "required": false
+    },
+    "vanillaworld:minecraft_lush_caves",
+    {
+      "id": "#vanillaworld:c_jungle",
+      "required": false
+    }
+  ]
+}

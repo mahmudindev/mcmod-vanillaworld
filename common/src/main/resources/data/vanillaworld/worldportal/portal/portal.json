@@ -1,0 +1,7 @@
+{
+  "frame_top_right": "minecraft:dirt",
+  "frame_top_left": "minecraft:dirt",
+  "frame_bottom_right": "minecraft:dirt",
+  "frame_bottom_left": "minecraft:dirt",
+  "destination": "vanillaworld:overworld"
+}
