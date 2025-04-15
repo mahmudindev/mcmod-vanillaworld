@@ -1,0 +1,10 @@
+{
+  "values": [
+    "vanillaworld:minecraft_warped_forest",
+    "vanillaworld:minecraft_crimson_forest",
+    {
+      "id": "#vanillaworld:c_nether_forests",
+      "required": false
+    }
+  ]
+}

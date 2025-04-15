@@ -1,0 +1,9 @@
+{
+  "values": [
+    "vanillaworld:minecraft_desert",
+    {
+      "id": "#vanillaworld:forge_is_desert",
+      "required": false
+    }
+  ]
+}

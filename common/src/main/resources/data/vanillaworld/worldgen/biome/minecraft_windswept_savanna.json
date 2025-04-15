@@ -54,6 +54,7 @@
       "vanillaworld:minecraft_ore_redstone",
       "vanillaworld:minecraft_ore_redstone_lower",
       "vanillaworld:minecraft_ore_diamond",
+      "vanillaworld:minecraft_ore_diamond_medium",
       "vanillaworld:minecraft_ore_diamond_large",
       "vanillaworld:minecraft_ore_diamond_buried",
       "vanillaworld:minecraft_ore_lapis",
@@ -131,6 +132,12 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 1
+      },
+      {
+        "type": "minecraft:armadillo",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 10
       }
     ],
     "misc": [],

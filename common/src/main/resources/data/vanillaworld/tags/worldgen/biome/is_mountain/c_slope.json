@@ -1,0 +1,16 @@
+{
+  "values": [
+    "vanillaworld:minecraft_snowy_slopes",
+    "vanillaworld:minecraft_meadow",
+    "vanillaworld:minecraft_grove",
+    "vanillaworld:minecraft_cherry_grove",
+    {
+      "id": "#vanillaworld:c_mountain_slope",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:forge_is_slope",
+      "required": false
+    }
+  ]
+}

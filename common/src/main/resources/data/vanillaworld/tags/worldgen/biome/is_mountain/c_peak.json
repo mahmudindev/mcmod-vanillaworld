@@ -1,0 +1,15 @@
+{
+  "values": [
+    "vanillaworld:minecraft_jagged_peaks",
+    "vanillaworld:minecraft_frozen_peaks",
+    "vanillaworld:minecraft_stony_peaks",
+    {
+      "id": "#vanillaworld:c_mountain_peak",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:forge_is_peak",
+      "required": false
+    }
+  ]
+}

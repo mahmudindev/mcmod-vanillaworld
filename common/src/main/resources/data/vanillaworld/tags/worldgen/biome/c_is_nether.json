@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#vanillaworld:minecraft_is_nether",
+    {
+      "id": "#vanillaworld:c_in_nether",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:forge_is_nether",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "vanillaworld:minecraft_desert",
+    "vanillaworld:minecraft_badlands",
+    "vanillaworld:minecraft_wooded_badlands",
+    "vanillaworld:minecraft_eroded_badlands",
+    "vanillaworld:minecraft_beach",
+    {
+      "id": "#vanillaworld:forge_is_sandy",
+      "required": false
+    }
+  ]
+}

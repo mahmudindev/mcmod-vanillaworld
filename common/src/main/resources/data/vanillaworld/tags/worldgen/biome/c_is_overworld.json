@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#vanillaworld:minecraft_is_overworld",
+    {
+      "id": "#vanillaworld:c_in_the_overworld",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:forge_is_overworld",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "values": [
+    "vanillaworld:minecraft_dark_forest",
+    "vanillaworld:minecraft_old_growth_birch_forest",
+    "vanillaworld:minecraft_old_growth_spruce_taiga",
+    "vanillaworld:minecraft_jungle",
+    "vanillaworld:minecraft_bamboo_jungle",
+    "vanillaworld:minecraft_mangrove_swamp",
+    {
+      "id": "#vanillaworld:c_vegetation_dense",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:is_dense/forge_overworld",
+      "required": false
+    }
+  ]
+}

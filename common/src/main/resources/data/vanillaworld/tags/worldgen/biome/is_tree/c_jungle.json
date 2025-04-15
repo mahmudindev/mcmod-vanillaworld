@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#vanillaworld:c_is_jungle",
+    {
+      "id": "#vanillaworld:c_tree_jungle",
+      "required": false
+    }
+  ]
+}

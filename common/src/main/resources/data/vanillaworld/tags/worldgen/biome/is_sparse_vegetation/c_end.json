@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#vanillaworld:is_sparse_vegetation/forge_end",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:is_sparse/forge_end",
+      "required": false
+    }
+  ]
+}

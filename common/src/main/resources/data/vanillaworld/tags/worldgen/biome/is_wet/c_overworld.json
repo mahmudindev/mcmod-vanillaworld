@@ -1,0 +1,20 @@
+{
+  "values": [
+    "vanillaworld:minecraft_swamp",
+    "vanillaworld:minecraft_mangrove_swamp",
+    "vanillaworld:minecraft_jungle",
+    "vanillaworld:minecraft_bamboo_jungle",
+    "vanillaworld:minecraft_sparse_jungle",
+    "vanillaworld:minecraft_beach",
+    "vanillaworld:minecraft_lush_caves",
+    "vanillaworld:minecraft_dripstone_caves",
+    {
+      "id": "#vanillaworld:c_climate_wet",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:is_wet/forge_overworld",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "vanillaworld:minecraft_mangrove_swamp",
+    "vanillaworld:minecraft_swamp",
+    {
+      "id": "#vanillaworld:forge_is_swamp",
+      "required": false
+    }
+  ]
+}

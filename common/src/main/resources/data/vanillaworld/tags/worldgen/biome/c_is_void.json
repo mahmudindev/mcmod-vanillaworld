@@ -1,0 +1,9 @@
+{
+  "values": [
+    "vanillaworld:minecraft_the_void",
+    {
+      "id": "#vanillaworld:forge_is_void",
+      "required": false
+    }
+  ]
+}

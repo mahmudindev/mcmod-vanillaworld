@@ -11,4 +11,4 @@ rootProject.name = 'vanillaworld'
 
 include 'common'
 include 'fabric'
-include 'forge'
+include 'neoforge'

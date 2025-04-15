@@ -1,0 +1,11 @@
+{
+  "values": [
+    "vanillaworld:minecraft_end_highlands",
+    "vanillaworld:minecraft_end_midlands",
+    "vanillaworld:minecraft_end_barrens",
+    {
+      "id": "#vanillaworld:c_end_islands",
+      "required": false
+    }
+  ]
+}

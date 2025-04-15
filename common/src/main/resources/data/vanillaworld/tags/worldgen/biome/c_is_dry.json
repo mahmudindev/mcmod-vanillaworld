@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#vanillaworld:is_dry/c_overworld",
+    "#vanillaworld:is_dry/c_nether",
+    "#vanillaworld:is_dry/c_end",
+    {
+      "id": "#vanillaworld:forge_is_dry",
+      "required": false
+    }
+  ]
+}

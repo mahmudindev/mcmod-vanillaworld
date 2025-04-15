@@ -4,6 +4,7 @@ import com.github.mahmudindev.mcmod.vanillaworld.VanillaWorld;
 import com.mojang.datafixers.util.Either;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.Lifecycle;
+import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
@@ -16,11 +17,11 @@ import net.minecraft.world.level.biome.*;
 import java.util.stream.Stream;
 
 public class CustomMultiNoiseBiomeSource extends BiomeSource {
-    public static final ResourceLocation ID = new ResourceLocation(
+    public static final ResourceLocation ID = ResourceLocation.fromNamespaceAndPath(
             VanillaWorld.MOD_ID,
             String.format("%s_%s", ResourceLocation.DEFAULT_NAMESPACE, "multi_noise")
     );
-    public static final Codec<CustomMultiNoiseBiomeSource> CODEC = RecordCodecBuilder.create(instance -> instance.group(
+    public static final MapCodec<CustomMultiNoiseBiomeSource> CODEC = RecordCodecBuilder.mapCodec(i -> i.group(
             Codec.mapEither(
                     Climate.ParameterList.codec(Biome.CODEC.fieldOf("biome")).fieldOf("biomes"),
                     MultiNoiseBiomeSourceParameterList.CODEC.fieldOf("preset").withLifecycle(Lifecycle.stable())
@@ -30,7 +31,7 @@ public class CustomMultiNoiseBiomeSource extends BiomeSource {
                     false
             ).forGetter(customMultiNoiseBiomeSource -> customMultiNoiseBiomeSource.overrideBiomes),
             RegistryOps.retrieveGetter(Registries.BIOME)
-    ).apply(instance, CustomMultiNoiseBiomeSource::new));
+    ).apply(i, CustomMultiNoiseBiomeSource::new));
 
     private final Either<Climate.ParameterList<Holder<Biome>>, Holder<MultiNoiseBiomeSourceParameterList>> parameters;
     private final boolean overrideBiomes;
@@ -70,7 +71,7 @@ public class CustomMultiNoiseBiomeSource extends BiomeSource {
 
         Holder.Reference<Biome> vanillaHolder = holderGetter.get(ResourceKey.create(
                 Registries.BIOME,
-                new ResourceLocation(VanillaWorld.MOD_ID, String.format(
+                ResourceLocation.fromNamespaceAndPath(VanillaWorld.MOD_ID, String.format(
                         "%s_%s",
                         resourceLocation.getNamespace(),
                         resourceLocation.getPath()
@@ -84,15 +85,13 @@ public class CustomMultiNoiseBiomeSource extends BiomeSource {
     }
 
     @Override
-    protected Codec<? extends BiomeSource> codec() {
+    protected MapCodec<? extends BiomeSource> codec() {
         return CODEC;
     }
 
     @Override
     protected Stream<Holder<Biome>> collectPossibleBiomes() {
-        return this.getParameters().values().stream().map(parameterPointHolderPair -> {
-            return this.getVanillaBiomes(parameterPointHolderPair.getSecond());
-        });
+        return this.getParameters().values().stream().map(v -> this.getVanillaBiomes(v.getSecond()));
     }
 
     @Override

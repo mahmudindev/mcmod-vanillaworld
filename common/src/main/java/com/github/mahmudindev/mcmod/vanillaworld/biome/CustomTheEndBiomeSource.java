@@ -2,6 +2,7 @@ package com.github.mahmudindev.mcmod.vanillaworld.biome;
 
 import com.github.mahmudindev.mcmod.vanillaworld.VanillaWorld;
 import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
@@ -17,17 +18,17 @@ import net.minecraft.world.level.levelgen.DensityFunction;
 import java.util.stream.Stream;
 
 public class CustomTheEndBiomeSource extends BiomeSource {
-    public static final ResourceLocation ID = new ResourceLocation(
+    public static final ResourceLocation ID = ResourceLocation.fromNamespaceAndPath(
             VanillaWorld.MOD_ID,
             String.format("%s_%s", ResourceLocation.DEFAULT_NAMESPACE, "the_end")
     );
-    public static final Codec<CustomTheEndBiomeSource> CODEC = RecordCodecBuilder.create(instance -> instance.group(
+    public static final MapCodec<CustomTheEndBiomeSource> CODEC = RecordCodecBuilder.mapCodec(i -> i.group(
             RegistryOps.retrieveGetter(Registries.BIOME),
             Codec.BOOL.optionalFieldOf(
                     "override_biomes",
                     false
             ).forGetter(customTheEndBiomeSource -> customTheEndBiomeSource.overrideBiomes)
-    ).apply(instance, instance.stable(CustomTheEndBiomeSource::new)));
+    ).apply(i, i.stable(CustomTheEndBiomeSource::new)));
 
     private final Holder<Biome> theEnd;
     private final Holder<Biome> endHighlands;
@@ -67,7 +68,7 @@ public class CustomTheEndBiomeSource extends BiomeSource {
 
         Holder.Reference<Biome> vanillaHolder = holderGetter.get(ResourceKey.create(
                 Registries.BIOME,
-                new ResourceLocation(VanillaWorld.MOD_ID, String.format(
+                ResourceLocation.fromNamespaceAndPath(VanillaWorld.MOD_ID, String.format(
                         "%s_%s",
                         resourceLocation.getNamespace(),
                         resourceLocation.getPath()
@@ -81,7 +82,7 @@ public class CustomTheEndBiomeSource extends BiomeSource {
     }
 
     @Override
-    protected Codec<? extends BiomeSource> codec() {
+    protected MapCodec<? extends BiomeSource> codec() {
         return CODEC;
     }
 

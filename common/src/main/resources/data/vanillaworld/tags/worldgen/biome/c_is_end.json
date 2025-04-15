@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#vanillaworld:minecraft_is_end",
+    {
+      "id": "#vanillaworld:c_in_the_end",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:forge_is_end",
+      "required": false
+    }
+  ]
+}

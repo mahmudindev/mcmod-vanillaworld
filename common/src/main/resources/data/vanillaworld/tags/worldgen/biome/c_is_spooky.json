@@ -1,0 +1,10 @@
+{
+  "values": [
+    "vanillaworld:minecraft_dark_forest",
+    "vanillaworld:minecraft_deep_dark",
+    {
+      "id": "#vanillaworld:forge_is_spooky",
+      "required": false
+    }
+  ]
+}

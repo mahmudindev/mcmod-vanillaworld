@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#vanillaworld:minecraft_is_mountain",
+    "#vanillaworld:is_mountain/c_peak",
+    "#vanillaworld:is_mountain/c_slope",
+    {
+      "id": "#vanillaworld:forge_is_mountain",
+      "required": false
+    }
+  ]
+}

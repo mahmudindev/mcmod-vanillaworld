@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#vanillaworld:c_is_taiga",
+    "vanillaworld:minecraft_grove",
+    {
+      "id": "#vanillaworld:c_tree_coniferous",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:is_tree/forge_coniferous",
+      "required": false
+    }
+  ]
+}

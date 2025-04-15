@@ -1,0 +1,10 @@
+{
+  "values": [
+    "vanillaworld:minecraft_plains",
+    "vanillaworld:minecraft_sunflower_plains",
+    {
+      "id": "#vanillaworld:forge_is_plains",
+      "required": false
+    }
+  ]
+}

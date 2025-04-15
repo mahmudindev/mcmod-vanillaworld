@@ -24,10 +24,10 @@ public abstract class SurfaceRulesMixin {
     @Shadow @Final @Mutable Predicate<ResourceKey<Biome>> biomeNameTest;
 
     @Inject(method = "<init>", at = @At("RETURN"))
-    private void init(List<ResourceKey<Biome>> list, CallbackInfo ci) {
+    private void initLast(List<ResourceKey<Biome>> list, CallbackInfo ci) {
         Set<ResourceKey<Biome>> set = Set.copyOf(this.biomes.stream().map(resourceKey -> {
             ResourceLocation resourceLocation = resourceKey.location();
-            return ResourceKey.create(Registries.BIOME, new ResourceLocation(
+            return ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath(
                     VanillaWorld.MOD_ID,
                     String.format(
                             "%s_%s",

@@ -1,0 +1,52 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+issueTrackerURL = "https://github.com/mahmudindev/mcmod-vanillaworld/issues"
+license = "ARR"
+
+[[mods]]
+modId = "vanillaworld"
+version = "${version}"
+displayName = "Vanilla World"
+authors = "mahmudindev"
+description = '''
+Add vanilla dimensions while keeping the original dimensions.
+'''
+logoFile = "assets/vanillaworld/icon.png"
+
+[[dependencies.vanillaworld]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.vanillaworld]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.vanillaworld]]
+modId = "worldportal"
+mandatory = true
+versionRange = "[0.0.6,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[dependencies.vanillaworld]]
+modId = "dimensionfixer"
+mandatory = true
+versionRange = "[0.0.5,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[dependencies.vanillaworld]]
+modId = "dimensionlink"
+mandatory = true
+versionRange = "[0.0.3,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[mixins]]
+config = "vanillaworld.mixins.json"

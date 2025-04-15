@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "#vanillaworld:is_dense/forge_nether",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#vanillaworld:c_is_savanna",
+    {
+      "id": "#vanillaworld:c_tree_savanna",
+      "required": false
+    }
+  ]
+}

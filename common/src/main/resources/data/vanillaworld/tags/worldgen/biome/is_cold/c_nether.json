@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "#vanillaworld:is_cold/forge_nether",
+      "required": false
+    }
+  ]
+}

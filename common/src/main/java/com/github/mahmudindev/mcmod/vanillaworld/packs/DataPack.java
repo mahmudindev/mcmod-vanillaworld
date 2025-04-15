@@ -3,14 +3,14 @@ package com.github.mahmudindev.mcmod.vanillaworld.packs;
 import com.github.mahmudindev.mcmod.vanillaworld.VanillaWorld;
 import com.github.mahmudindev.mcmod.vanillaworld.VanillaWorldExpectPlatform;
 import net.minecraft.network.chat.Component;
-import net.minecraft.server.packs.PackType;
-import net.minecraft.server.packs.PathPackResources;
+import net.minecraft.server.packs.*;
 import net.minecraft.server.packs.repository.Pack;
 import net.minecraft.server.packs.repository.PackSource;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
@@ -26,19 +26,31 @@ public class DataPack {
 
         try (Stream<Path> walk = Files.list(resourcesPath)) {
             walk.forEach(path -> {
-                try (PathPackResources resources = new PathPackResources(
-                        VanillaWorld.MOD_ID + "/packs/" + path.getFileName(),
-                        path,
-                        true
-                )) {
+                PackLocationInfo packLocation = new PackLocationInfo(
+                        VanillaWorld.MOD_ID + "/" + path,
+                        Component.translatable("Vanilla World: " + path.getFileName()),
+                        PackSource.create(component -> component, false),
+                        Optional.empty()
+                );
+                try (PathPackResources resources = new PathPackResources(packLocation, path)) {
                     Pack pack = Pack.readMetaAndCreate(
-                            resources.packId(),
-                            Component.translatable("Vanilla World: " + path.getFileName()),
-                            false,
-                            ignored -> resources,
+                            packLocation,
+                            new Pack.ResourcesSupplier() {
+                                @Override
+                                public PackResources openPrimary(PackLocationInfo packLocationInfo) {
+                                    return resources;
+                                }
+
+                                @Override
+                                public PackResources openFull(
+                                        PackLocationInfo packLocationInfo,
+                                        Pack.Metadata metadata
+                                ) {
+                                    return resources;
+                                }
+                            },
                             PackType.SERVER_DATA,
-                            Pack.Position.TOP,
-                            PackSource.create(component -> component, false)
+                            new PackSelectionConfig(false, Pack.Position.TOP, false)
                     );
                     if (pack == null) {
                         return;

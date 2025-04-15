@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#vanillaworld:c_is_ocean",
+    "#vanillaworld:c_is_river",
+    {
+      "id": "#vanillaworld:forge_is_water",
+      "required": false
+    }
+  ]
+}

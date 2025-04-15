@@ -1,0 +1,9 @@
+{
+  "values": [
+    "vanillaworld:minecraft_flower_forest",
+    {
+      "id": "#vanillaworld:c_flower_forests",
+      "required": false
+    }
+  ]
+}

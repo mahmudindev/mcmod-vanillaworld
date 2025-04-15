@@ -1,0 +1,12 @@
+{
+  "values": [
+    "vanillaworld:minecraft_sunflower_plains",
+    "vanillaworld:minecraft_meadow",
+    "vanillaworld:minecraft_cherry_grove",
+    "#vanillaworld:c_is_flower_forest",
+    {
+      "id": "#vanillaworld:forge_is_floral",
+      "required": false
+    }
+  ]
+}

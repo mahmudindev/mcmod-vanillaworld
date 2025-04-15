@@ -1,0 +1,9 @@
+{
+  "values": [
+    "vanillaworld:minecraft_mushroom_fields",
+    {
+      "id": "#vanillaworld:forge_is_mushroom",
+      "required": false
+    }
+  ]
+}

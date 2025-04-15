@@ -1,0 +1,32 @@
+{
+  "values": [
+    "vanillaworld:minecraft_taiga",
+    "vanillaworld:minecraft_old_growth_pine_taiga",
+    "vanillaworld:minecraft_old_growth_spruce_taiga",
+    "vanillaworld:minecraft_windswept_hills",
+    "vanillaworld:minecraft_windswept_gravelly_hills",
+    "vanillaworld:minecraft_windswept_forest",
+    "vanillaworld:minecraft_snowy_plains",
+    "vanillaworld:minecraft_ice_spikes",
+    "vanillaworld:minecraft_grove",
+    "vanillaworld:minecraft_snowy_slopes",
+    "vanillaworld:minecraft_jagged_peaks",
+    "vanillaworld:minecraft_frozen_peaks",
+    "vanillaworld:minecraft_stony_shore",
+    "vanillaworld:minecraft_snowy_beach",
+    "vanillaworld:minecraft_snowy_taiga",
+    "vanillaworld:minecraft_frozen_river",
+    "vanillaworld:minecraft_cold_ocean",
+    "vanillaworld:minecraft_frozen_ocean",
+    "vanillaworld:minecraft_deep_cold_ocean",
+    "vanillaworld:minecraft_deep_frozen_ocean",
+    {
+      "id": "#vanillaworld:c_climate_cold",
+      "required": false
+    },
+    {
+      "id": "#vanillaworld:is_cold/forge_overworld",
+      "required": false
+    }
+  ]
+}

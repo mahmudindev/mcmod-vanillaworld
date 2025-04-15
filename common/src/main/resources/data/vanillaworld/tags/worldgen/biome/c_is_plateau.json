@@ -1,0 +1,12 @@
+{
+  "values": [
+    "vanillaworld:minecraft_wooded_badlands",
+    "vanillaworld:minecraft_savanna_plateau",
+    "vanillaworld:minecraft_cherry_grove",
+    "vanillaworld:minecraft_meadow",
+    {
+      "id": "#vanillaworld:forge_is_plateau",
+      "required": false
+    }
+  ]
+}

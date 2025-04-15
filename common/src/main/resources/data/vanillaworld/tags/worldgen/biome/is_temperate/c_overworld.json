@@ -1,0 +1,18 @@
+{
+  "values": [
+    "vanillaworld:minecraft_forest",
+    "vanillaworld:minecraft_sunflower_plains",
+    "vanillaworld:minecraft_swamp",
+    "vanillaworld:minecraft_stony_shore",
+    "vanillaworld:minecraft_dark_forest",
+    "vanillaworld:minecraft_windswept_forest",
+    "vanillaworld:minecraft_birch_forest",
+    "vanillaworld:minecraft_old_growth_birch_forest",
+    "vanillaworld:minecraft_meadow",
+    "vanillaworld:minecraft_plains",
+    {
+      "id": "#vanillaworld:c_climate_temperate",
+      "required": false
+    }
+  ]
+}
