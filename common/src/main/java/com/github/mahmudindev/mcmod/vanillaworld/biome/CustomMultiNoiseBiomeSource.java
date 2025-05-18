@@ -90,9 +90,7 @@ public class CustomMultiNoiseBiomeSource extends BiomeSource {
 
     @Override
     protected Stream<Holder<Biome>> collectPossibleBiomes() {
-        return this.getParameters().values().stream().map(parameterPointHolderPair -> {
-            return this.getVanillaBiomes(parameterPointHolderPair.getSecond());
-        });
+        return this.getParameters().values().stream().map(v -> this.getVanillaBiomes(v.getSecond()));
     }
 
     @Override

@@ -30,20 +30,20 @@ side = "BOTH"
 [[dependencies.vanillaworld]]
 modId = "worldportal"
 mandatory = true
-versionRange = "[0.0.3,)"
+versionRange = "[0.0.5,)"
 ordering = "NONE"
 side = "SERVER"
 
 [[dependencies.vanillaworld]]
 modId = "dimensionfixer"
 mandatory = true
-versionRange = "[0.0.3,)"
+versionRange = "[0.0.5,)"
 ordering = "NONE"
 side = "SERVER"
 
 [[dependencies.vanillaworld]]
 modId = "dimensionlink"
 mandatory = true
-versionRange = "[0.0.2,)"
+versionRange = "[0.0.3,)"
 ordering = "NONE"
 side = "SERVER"

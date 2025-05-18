@@ -27,7 +27,7 @@ public class DataPack {
         try (Stream<Path> walk = Files.list(resourcesPath)) {
             walk.forEach(path -> {
                 try (PathPackResources resources = new PathPackResources(
-                        VanillaWorld.MOD_ID + "/packs/" + path.getFileName(),
+                        VanillaWorld.MOD_ID + "/" + path,
                         path,
                         true
                 )) {

@@ -1,6 +1,7 @@
 {
   "dimension_types": [
-    "vanillaworld:overworld"
+    "vanillaworld:overworld",
+    "vanillaworld:overworld_caves"
   ],
   "dimensions": []
 }
